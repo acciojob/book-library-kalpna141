@@ -21,7 +21,7 @@ body {
     margin: 10px 20px 10px 20px;
     height:25%;
     border: 1px solid white;
-    background-color: rgb(255, 255, 255);
+  
 }
 .book img{
     margin-left: auto;
@@ -29,9 +29,10 @@ body {
     width:15%;
     display:block;
     padding:10px;
+	
 }
 #btn{
-    background-color: rgb(46, 204, 113);
+    background-color: rgb(46,204,113);
     text-align:center;
     height:25px;
     margin-left: auto;
