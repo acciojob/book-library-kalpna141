@@ -5,12 +5,14 @@
 }
 body {
 	background-color: #f8f8f8    ;
+	
 }
 .book-library {
 	width:100%;
 	margin:10px 0px 10px 0px;
 	height:90%;
 	border: 1px solid #915151;
+	border-radius:5px;
     background-color: #777777;
 	text-align:center;
 	box-shadow: 0px 0px 10px #ffffff;
