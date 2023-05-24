@@ -34,10 +34,11 @@ body {
     width:15%;
     display:block;
     padding:10px;
+	background:#777777;
 	
 }
 #btn{
-    
+    color:white;
     text-align:center;
     height:25px;
     margin-left: auto;
