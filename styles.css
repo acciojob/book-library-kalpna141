@@ -1,63 +1,37 @@
-/*  your css code here. If applicable */
-body {
+*{
+	margin:0;
+	padding:0;
+}
+body{
 	background-color:#f8f8f8;
-	
+	display:flex;
+	justify-content:center;
 }
-#heading {
+.book-library{
+	margin:20px 0;
+	background-color:#ffffff;
+	width:400px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.book-library h1{
 	text-align:center;
-	margin-right:20px;
-	margin-left:20px;
-	background:#777777;
+	padding:10px;
+	background-color:#f8f8f8;	
 }
-
-.book-library {
-	width:100%;
-	margin:10px 0px 10px 0px;
-	height:90%;
-	border: 1px solid #915151;
-	border-radius:5px;
+.book-library .book img{
+	height:200px;
+}
+.book-library .book{
+	margin-top:10px;
+	background-color:#f8f8f8;
+	padding:10px;
+}
+.book-library .book .book-price{
+	background-color:#2ecc71;
 	text-align:center;
-	box-shadow: 0px 0px 10px #ffffff;
-	background: #ffffff;
-}
-.book {
-    margin: 10px 20px 10px 20px;
-    height:25%;
-    border: 1px solid white;
-	background:#777777;
-	
-  
-}
-.book img{
-    margin-left: auto;
-    margin-right: auto;
-    width:15%;
-    display:block;
-    padding:10px;
-	background:#777777;
-	
-}
-#btn{
-    color:white;
-    text-align:center;
-    height:25px;
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    border-radius: 5px;
-    padding:20px 0px 20px 0px;
-    width:98%;
-    margin-bottom:10px;
-    font-size: 20px;
-    font-weight: bold;
-	background:#2ecc71;
-}
-
-.book h2{
-    padding-left:12px;
+	padding:10px;
+	color:#fff;
 }
 .book p{
-    padding-left:12px;
-	background: #777777;
-	
+	color:#777777;
 }
