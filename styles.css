@@ -1,22 +1,63 @@
 /*  your css code here. If applicable */
-.book-library, h1{
-	text-align:center;
+body {
 	background-color:#f8f8f8;
 	
 }
-/* h1{
+#heading {
 	text-align:center;
-} */
-body{
-	background-color:#ffffff;
+	margin-right:20px;
+	margin-left:20px;
+	background:#777777;
 }
-input{
+
+.book-library {
 	width:100%;
-	background-color:#2ecc71;
+	margin:10px 0px 10px 0px;
+	height:90%;
+	border: 1px solid #915151;
+	border-radius:5px;
+	text-align:center;
+	box-shadow: 0px 0px 10px #ffffff;
+	background: #ffffff;
 }
-.author{
-	background-color: #777777;
+.book {
+    margin: 10px 20px 10px 20px;
+    height:25%;
+    border: 1px solid white;
+	background:#777777;
+	
+  
 }
-.library{
-	background-color:#f8f8f8;
+.book img{
+    margin-left: auto;
+    margin-right: auto;
+    width:15%;
+    display:block;
+    padding:10px;
+	background:#777777;
+	
+}
+#btn{
+    color:white;
+    text-align:center;
+    height:25px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border-radius: 5px;
+    padding:20px 0px 20px 0px;
+    width:98%;
+    margin-bottom:10px;
+    font-size: 20px;
+    font-weight: bold;
+	background:#2ecc71;
+}
+
+.book h2{
+    padding-left:12px;
+}
+.book p{
+    padding-left:12px;
+	background: #777777;
+	
 }

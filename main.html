@@ -3,44 +3,43 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="footer.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="container">
-		<h1>Book Library</h2>
-		<section>
-		<div class="library">
-			<p class="book-library">
-				<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
-				<p><b>SPY IN THE AMBER</b><br>
-			    <span class="author">by Manohar Malgonka</span></p>
-			<input type="button" value="Rs.299">
-		</div>
-		</section>
-		<section>
-		<div class="library">
-			<p class="book-library">
-				<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
-				<p><b>SACRED GAMES</b><br>
-			    <span class="author">by Vikram Chandra</span></p>
-			<input type="button" value="Rs.199">
-		</div>
-		</section>
-		<section>
-		<div class="library">
-			<p class="book-library">
-				<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
-				<p><b>BYOMKESH BAKSHI</b><br>
-			    <span class="author">by Sharadindu Bandyopadhyay</span></p>
-			<input type="button" value="Rs.249">
-		</div>
-		</section>
-	</div>
     <script type="text/javascript" src="./script.js">
 </script>
-
+<div class="book-library">
+		<section>
+		  <h1 id="heading">Book Library</h1>
+		</section>
+<section class="book">
+		<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the amber">
+	   <div> <h2>SPY IN THE AMBER</h2>
+		<p>By Manohar Malgonkar</p>
+		<div>
+			<button id="btn">Rs.299</button>
+		</div>
+</section>
+<section class="book"> 
+		<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="sacred games">
+	    <h2>Sacred Games</h2>
+		<p>by Vikram Chandra</p>
+		<div>
+			<button id="btn">Rs.199</button>
+		</div>
+</section>
+<section class="book">
+		<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="byomkesh-bakshi">
+	    <h2>BYOMKESH BAKSHI</h3>
+		<p>By Saradindu Bandopadhyay</p>
+		<div>
+			<button id="btn">Rs.249</button>
+		</div>
+</section>
+</div>
+		
 </body>
 
 </html>
