@@ -4,7 +4,7 @@
 	background-color: #ffffff;
 }
 body {
-	background-color: #f8f8f8;
+	background-color:#f8f8f8;
 	
 }
 .book-library {
@@ -21,6 +21,7 @@ body {
     margin: 10px 20px 10px 20px;
     height:25%;
     border: 1px solid white;
+	 background-color:#777777;
   
 }
 .book img{
